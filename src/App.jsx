@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Index from './pages/Index';
-import Jobs from './pages/Jobs';
-import Admin from './pages/Admin';
+import Index from './pages/Index.jsx';
+import Jobs from './pages/Jobs.jsx';
+import Admin from './pages/Admin.jsx';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -16,4 +16,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default App; 
